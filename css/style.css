@@ -1,0 +1,38 @@
+*{margin: 0;}
+html{font-size: 10px;background-color: #2E357A;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{position: fixed;width: 100%;height: 8.8rem;background-color: #2E357A;z-index: 9999}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8.8rem;}
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li {float: left;margin: 0rem 2.3rem;}
+header > nav > .menu > ul > li > a {color: #FFFFFF;font-family : 'Noto Sans KR', sans-serif;font-size: 2.0rem;font-weight: 500;letter-spacing: -0.025rem;}
+header > nav > .menu > ul > li > a:hover {color: #8394C4}
+
+section > .keyvisual{background-image: url('../img/keyvisual_bg_02.png');height: 70rem;text-align: center;}
+section > .keyvisual > .keyvisual_wrap{margin: auto;width: 102.4rem;height: 70rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title{padding-top: 19rem;text-align: center;}
+
+
+section > .profile > .profile_wrap{margin: auto;text-align: center;width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01{padding-top: 10.7rem;}
+section > .profile > .profile_wrap > .contents_tit{padding-top: 27.9rem;}
+
+
+section > .pf_1 > .pf_wrap{margin: auto;text-align: center;width: 102.4rem}
+section > .pf_1 > .pf_wrap > .mockup_01{padding-top: 27.9rem;}
+
+section > .pf_2 > .pf_wrap{margin: auto;text-align: center;width: 102.4rem}
+section > .pf_2 > .pf_wrap > .mockup_02{padding-top: 27.9rem;}
+
+section > .pf_3 > .pf_wrap{margin: auto;text-align: center;width: 102.4rem}
+section > .pf_3 > .pf_wrap > .mockup_03{padding-top: 27.9rem;}
+
+section > .pf_4 > .pf_wrap{margin: auto;text-align: center;width: 102.4rem}
+section > .pf_4 > .pf_wrap > .mockup_04{padding-top: 27.9rem;}
+
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{padding-top: 20rem;text-align: center;margin-bottom: 3rem;}

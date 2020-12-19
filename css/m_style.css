@@ -1,0 +1,26 @@
+*{margin: 0;}
+html{font-size: 10px;background-color: #2E357A;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+
+header{height: 9.2rem;text-align: center;}
+header > .logo{padding-top: 2.8rem;}
+
+section > .keyvisual{text-align: center;background-image: url('../img/m_keyvisual_1.png');height: 64.4rem;}
+
+section > .keyvisual > img{padding-top: 15.2rem;}
+
+.profile_01{text-align: center;}
+
+section > .profile > .profile_01{padding-top: 7.7rem;}
+
+.contents{text-align: center;padding-top: 13.5rem;}
+
+.pf1, .pf2, .pf3, .pf4{text-align: center;padding-top: 13.5rem;}
+section > .pf1{background-color: #2E357A;}
+section > .pf2{background-color: #2E357A;}
+section > .pf3{background-color: #2E357A;}
+section > .pf4{background-color: #2E357A;}
+
+footer{padding-top: 10.5rem;text-align: center;margin-bottom: 3rem;}

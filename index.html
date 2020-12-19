@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>donghyeon's portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+   <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + KR : wght @ 100; 300; 400; 500; 700; 900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="img/logo_1.png" alt="move">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">Profile</a></li>
+            <li><a onclick="fnMove('2')">Editorial</a></li>
+            <li><a onclick="fnMove('3')">Package</a></li>
+            <li><a onclick="fnMove('4')">Identity</a></li>
+            <li><a onclick="fnMove('5')">Advertising</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="keyvisual">
+        <div class="keyvisual_wrap">
+          <div class="keyvisual_title" data-aos="flip-left" data-aos-duration="1500">
+            <img src="img/keyvisual_title_01.png" alt="감성을 디자인하다.">
+          </div>
+        </div>
+      </div>
+
+      <div class="profile" id="anchor1">
+        <div class="profile_wrap">
+         <div class="profile_01" data-aos="fade-up" data-aos-duration="1500"><img src="img/text_1.png" alt="프로필"></div>
+         <div class="contents_tit" data-aos="fade-up" data-aos-duration="1500"><img src="img/contents_01.png" alt="컨텐츠"></div>
+        </div>
+      </div>
+
+
+      <div class="pf_1" id="anchor2">
+        <div class="pf_wrap">
+          <div class="mockup_01" data-aos="fade-up" data-aos-duration="1500"><img src="img/mockup_01.png" alt="editorial"></div>
+        </div>
+      </div>
+
+      <div class="pf_2" id="anchor3">
+        <div class="pf_wrap">
+          <div class="mockup_02" data-aos="fade-up" data-aos-duration="1500"><img src="img/mockup_02.png" alt="package"></div>
+        </div>
+      </div>
+
+      <div class="pf_3" id="anchor4">
+        <div class="pf_wrap">
+          <div class="mockup_03" data-aos="fade-up" data-aos-duration="1500"><img src="img/mockup_03.png" alt="identity"></div>
+        </div>
+      </div>
+
+      <div class="pf_4" id="anchor5">
+        <div class="pf_wrap">
+          <div class="mockup_04" data-aos="fade-up" data-aos-duration="1500"><img src="img/mockup_04.png" alt="edvertising">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_wrap">
+        <div class="footer_logo"><img src="img/footer_01.png" alt="footer"></div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>
